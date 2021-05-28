@@ -1,8 +1,9 @@
 import classes from "./DrawerOpen.module.css";
 
-const DrawerOpen = () => {
+const DrawerOpen = ({click}) => {
+  console.log(click)
   return ( <div className={classes.DrawerOpen}>
-
+    <div onClick={click} style={{cursor: "pointer"}}>clickme</div>
   </div> );
 }
  
