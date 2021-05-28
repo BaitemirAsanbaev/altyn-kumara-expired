@@ -17,6 +17,7 @@ nav>div{
   justify-content: center;
   align-items: center;
   flex-direction: row!important;
+  padding: 0px!important;
 }
 nav>div>div{
   margin: 0px 40px;
@@ -27,6 +28,9 @@ nav>div>div{
   nav>div>div{
     margin: 0px 20px;
   }
+  nav{
+    margin: 0px;
+  }
 }
 
 @media (max-width: 920px) {
@@ -35,7 +39,7 @@ nav>div>div{
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   nav{
     display: none;
   }
