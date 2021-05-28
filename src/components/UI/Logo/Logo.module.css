@@ -13,4 +13,8 @@
   font-size: 46px;
   margin: 0px 50px;
   width: 224px;
+  transition: color .5s;
+}
+.title:hover{
+  color: #fa3535;
 }

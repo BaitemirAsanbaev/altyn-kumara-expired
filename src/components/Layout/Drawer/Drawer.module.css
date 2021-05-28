@@ -15,8 +15,33 @@
   height: 100%;
   z-index: 3;
 }
+.drawerLogo>div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
 @media(min-width: 750px){
   .Drawer{
     display: none;
+  }
+}
+
+@media(max-width: 450px){
+  .content{
+    width: 300px;
+  }
+}
+
+@media(max-width: 350px){
+  .content{
+    width: 230px;
+  }
+  .drawerLogo>div>h1{
+    font-size: 30px;
+    margin: 0px;
+    position: relative;
+    left: 35px;
+    top: 10px;
   }
 }

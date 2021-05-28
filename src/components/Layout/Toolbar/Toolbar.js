@@ -5,7 +5,9 @@ import DrawerOpen from "../Drawer/DrawerOpen/DrawerOpen"
 
 const Toolbar = ({openDrawer}) => {
   return ( <div className={classes.Toolbar}>
-    <Logo/>
+    <div>
+      <Logo/>
+    </div>
     <nav>
       <Nav/>
     </nav>
