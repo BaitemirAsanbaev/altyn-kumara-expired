@@ -1,0 +1,9 @@
+.NavItem>a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+  transition: color .5s;
+}
+.NavItem>a:hover{
+  color: #ffdc23;
+}

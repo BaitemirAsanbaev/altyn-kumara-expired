@@ -4,3 +4,35 @@
   background-color: #171717;
   padding: 10px 20px;
 }
+nav{
+  display: flex;
+  align-items: center;
+  margin-right: 200px;
+}
+nav>div{
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+nav>div>div{
+  margin: 0px 40px;
+}
+
+
+@media (max-width: 1020px) {
+  nav>div>div{
+    margin: 0px 20px;
+  }
+}
+
+@media (max-width: 920px) {
+  nav>div>div{
+    margin: 0px 10px;
+  }
+}
+
+@media (max-width: 800px) {
+  nav{
+    display: none;
+  }
+}
