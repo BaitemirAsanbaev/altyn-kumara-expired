@@ -1,8 +1,11 @@
 import classes from "./Home.module.css";
+import Slider from "./Slider/Slider"
+import Best from "./Best/Best"
 
 const Home = () => {
   return ( <div className={classes.Home}>
-    Home
+    <Slider/>
+    <Best/>
   </div> );
 }
  
