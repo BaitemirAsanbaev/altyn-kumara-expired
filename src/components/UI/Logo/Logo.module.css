@@ -18,3 +18,9 @@
 .title:hover{
   color: #fa3535;
 }
+@media (max-width: 300px) {
+  .title{
+    width: 150px;
+    font-size: 28px!important;
+  }
+}
