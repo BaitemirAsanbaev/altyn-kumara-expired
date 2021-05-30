@@ -11,10 +11,10 @@ const Slider = () => {
     image2,
     image3
   ]
-  let i = 0
-  const [currentSlide, setCurrentSlide] = useState(slideColors[i])
+  const [currentSlide, setCurrentSlide] = useState(slideColors[0])
 
 useEffect(()=>{
+  let i = 0;
   setInterval(()=>{
     if(i === slideColors.length - 1){
       i = -1;
