@@ -1,0 +1,30 @@
+form{
+  display: flex;
+  flex-direction: column;
+  margin: 30px ;
+}
+.Vacancy{
+  background-color: #242424;
+  color: #fff;
+  display: flex;
+  max-width: 600px;
+  margin: 0 auto;
+  justify-content: center;
+}
+.Vacancy label{
+  margin: 20px 0px 10px 0px;
+}
+.Vacancy input, .Vacancy select{
+  outline: none;
+  border: 2px solid #ffdc23;
+}
+.submitBtn{
+  background-color: #242424;
+  color: #ffdc23;
+  margin-top: 40px;
+  padding: 10px 15px;
+  border: 2px solid #ffdc23;
+  outline: none;
+  font-weight: bold;
+  font-size: 24px;
+}
