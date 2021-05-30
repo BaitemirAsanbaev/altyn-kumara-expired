@@ -14,6 +14,7 @@
   margin: 0px 50px;
   width: 224px;
   transition: color .5s;
+  cursor: default;
 }
 .title:hover{
   color: #fa3535;

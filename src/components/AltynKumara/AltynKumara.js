@@ -8,7 +8,6 @@ import NotFound from "../UI/NotFound/NotFound"
 
 const AltynKumara = () => {
   return ( <div className={classes.AltynKumara}>
-    AltynKumara
     <Switch>
       <Route exact path='/' component={Home}/>
       <Route path='/menu' component={Menu}/>
