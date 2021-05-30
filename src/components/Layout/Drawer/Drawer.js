@@ -8,7 +8,6 @@ const Drawer = ({closeDrawer, open}) => {
     classes.content,
     open ? classes.open : classes.close
   ];
-  console.log(open)
 
   return ( <div className={classes.Drawer}>
     <Backdrop show={open} click={closeDrawer}/>

@@ -18,11 +18,9 @@ useEffect(()=>{
   setInterval(()=>{
     if(i === slideColors.length - 1){
       i = -1;
-      console.log(i, "fgfrebre");
     }
     i++
     setCurrentSlide(slideColors[i])
-    console.log(i, currentSlide)
   }, 10000)
 }, [])
 
