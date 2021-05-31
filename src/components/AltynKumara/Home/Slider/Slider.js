@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import classes from "./Slider.module.css";
 import image1 from "../../../../images/slider-images/image1.png";
 import image2 from "../../../../images/slider-images/image2.png";

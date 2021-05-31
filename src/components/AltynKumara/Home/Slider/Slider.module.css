@@ -16,8 +16,7 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-  position: relative;
-  top: -500px;
+  position: absolute;
 }
 .sliderBtn{
   height: 500px;
@@ -26,9 +25,26 @@
   background-color: rgba(0, 0, 0, 0.5);
   color: #fff;
   font-size: 30px;
-  opacity: .1;
-  transition: opacity .5s;
+  opacity: .3;
+  transition: opacity .5s, transform .5s;
+  position: relative;
+  top: -500px;
 }
 .sliderBtn:hover{
   opacity: 1;
+}
+
+@media (max-width: 900px) {
+  .sliderBtn{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    opacity: 1;
+    top: -300px;
+  }
+}
+@media (max-width: 500px) {
+  .sliderBtn{
+    transform: scale(.6);
+  }
 }
