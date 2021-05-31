@@ -18,6 +18,6 @@
   font-size: 42px;
   color: rgb(255, 255, 255);
   font-weight: bold;
-  animation: title-colors 3s infinite alternate;
+  animation: title-colors 3s infinite alternate ease-in-out;
   padding: 10px 20px;
 }
