@@ -1,13 +1,33 @@
+import axios from "axios";
 import classes from "./Vacancy.module.css";
 
 const Vacancy = ({ match }) => {
+
+
+
+  function onSubmitCallback(event){
+    const data = new FormData(event.target)
+    event.preventDefault()
+
+    axios.post('https://altyn-kumara-a0de6-default-rtdb.firebaseio.com/vacancies.json' ,{
+      имя: data.get('first-name'),
+      фамилия: data.get('last-name'),
+      возраст: data.get('age'),
+      должность: data.get('occupation'),
+      стаж_работы: data.get('exp'),
+      график_работы: data.get('graph'),
+      номер_телефона: data.get('phone')
+    })
+  }
+
+
   return (
     <div className={classes.Vacancy}>
-      <form>
+      <form onSubmit={onSubmitCallback}>
         <label htmlFor='first-name'>Имя</label>
-        <input required type='text' name='name' />
-        <label htmlFor='second-name'>Фамилия</label>
-        <input required type='text' name='name' />
+        <input required type='text' name='first-name' />
+        <label htmlFor='last-name'>Фамилия</label>
+        <input required type='text' name='last-name' />
         <label htmlFor='age'>Возраст</label>
         <input required type='number' name='age' />
         <label htmlFor='occupation'>Должность</label>
