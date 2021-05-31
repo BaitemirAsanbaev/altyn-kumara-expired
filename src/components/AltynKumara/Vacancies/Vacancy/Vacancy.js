@@ -43,6 +43,9 @@ const Vacancy = ({ match }) => {
         </select>
       )
       break
+
+    default:
+      break
   
   }
 

@@ -5,27 +5,24 @@ import image2 from "../../../../images/slider-images/image2.png";
 import image3 from "../../../../images/slider-images/image3.jpg";
 
 const Slider = () => {
-
   const slideColors = [
     image1,
     image2,
     image3
   ]
-  const [currentSlide, setCurrentSlide] = useState(slideColors[0])
+  const [currentSlide, setCurrentSlide] = useState(0)
 
+const slides = slideColors.length;
 useEffect(()=>{
-  let i = 0;
   setInterval(()=>{
-    if(i === slideColors.length - 1){
-      i = -1;
-    }
-    i++
-    setCurrentSlide(slideColors[i])
+    setCurrentSlide(
+      currentSlide === slides - 1 ? 0 : currentSlide + 1
+    )
   }, 10000)
-}, [])
+}, [currentSlide, slides])
 
   return ( <div className={classes.Slider}>
-    <div style={{backgroundImage: `url(${currentSlide})`}} className={classes.slide}></div>
+    <div style={{backgroundImage: `url(${slideColors[currentSlide]})`}} className={classes.slide}></div>
     <div>
     </div>
   </div> );
