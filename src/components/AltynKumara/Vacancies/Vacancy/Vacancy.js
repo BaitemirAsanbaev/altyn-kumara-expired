@@ -9,7 +9,7 @@ const Vacancy = ({ match }) => {
   switch(match.params.id){
     case 'waiter':
       occupations.push(
-        <select required name='occupation'>
+        <select key={match.params.id} required name='occupation'>
           <option>Официант</option>
           <option>Раннер</option>
           <option>Хостес</option>
@@ -18,7 +18,7 @@ const Vacancy = ({ match }) => {
       break
     case 'admin':
       occupations.push(
-        <select required name='occupation'>
+        <select key={match.params.id} required name='occupation'>
           <option>Администратор</option>
           <option>Кассир</option>
         </select>
@@ -26,7 +26,7 @@ const Vacancy = ({ match }) => {
       break
     case 'chef':
       occupations.push(
-        <select required name='occupation'>
+        <select key={match.params.id} required name='occupation'>
           <option>Повар универсал</option>
           <option>Шашлычник</option>
           <option>Салатник</option>
