@@ -1,0 +1,23 @@
+@keyframes title-colors{
+  from{
+    background-color: red;
+  }
+  to{
+    background-color: rgb(47, 255, 75);
+  }
+}
+.Bravo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Bravo>img{
+  width: 300px;
+}
+.Bravo>h1{
+  font-size: 42px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  animation: title-colors 3s infinite alternate;
+  padding: 10px 20px;
+}
