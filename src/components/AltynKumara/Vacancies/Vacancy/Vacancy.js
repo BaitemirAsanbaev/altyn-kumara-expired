@@ -1,8 +1,10 @@
 import axios from "axios";
+import { useHistory } from "react-router";
 import classes from "./Vacancy.module.css";
 
 const Vacancy = ({ match }) => {
 
+  const history = useHistory();
 
 
   function onSubmitCallback(event){
@@ -18,6 +20,9 @@ const Vacancy = ({ match }) => {
       график_работы: data.get('graph'),
       номер_телефона: data.get('phone')
     })
+    setTimeout(()=>{
+      history.push('/')
+    }, 1000)
   }
 
 

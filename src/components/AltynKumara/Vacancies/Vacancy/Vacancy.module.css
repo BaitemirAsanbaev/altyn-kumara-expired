@@ -27,4 +27,9 @@ form{
   outline: none;
   font-weight: bold;
   font-size: 24px;
+  transition: transform .3s;
+}
+.submitBtn:focus{
+  transform: scale(.8);
+
 }
