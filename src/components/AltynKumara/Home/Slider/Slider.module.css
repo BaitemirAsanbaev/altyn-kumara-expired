@@ -1,8 +1,34 @@
-.slide{
+.slides>div{
   height: 500px;
-  width: 100%;
-  transition: background-image .5s ease-in;
+  flex: 0 0 100%;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+.slides{
+  display: flex;
+  transition: transform .5s ease-in;
+}
+.Slider{
+  overflow: hidden;
+}
+.sliderBtns{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: -500px;
+}
+.sliderBtn{
+  height: 500px;
+  width: 150px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  font-size: 30px;
+  opacity: .1;
+  transition: opacity .5s;
+}
+.sliderBtn:hover{
+  opacity: 1;
 }
