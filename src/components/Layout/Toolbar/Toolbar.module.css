@@ -59,3 +59,8 @@ nav>div>div{
     font-size: 34px;
   }
 }
+@media (max-width: 250px) {
+  .Toolbar>div>div>h1{
+    display: none;
+  }
+}
