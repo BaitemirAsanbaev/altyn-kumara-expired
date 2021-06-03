@@ -1,0 +1,14 @@
+.About{
+  background-color: #242424;
+  color: #fff;
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 20px 80px;
+}
+.About p{
+  line-height: 1.5;
+  font-size: 24px;
+}
+.About h1{
+  font-size: 36px;
+}
