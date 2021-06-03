@@ -15,6 +15,9 @@
   align-items: baseline;
 
 }
+.info{
+  margin: 50px 0px;
+}
 .info img{
   width: 40px;
   height: 90px;
