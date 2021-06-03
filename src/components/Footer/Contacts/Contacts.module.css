@@ -1,0 +1,42 @@
+.Contacts{
+  margin-right: 50px;
+}
+.Contacts h3{
+  font-size: 36px;
+  font-weight: 400;
+}
+.Contacts ul{
+  list-style: none;
+  margin: 20px 0px;
+  padding: 0px;
+}
+.Contacts li{
+  margin: 20px 0px;
+}
+.links{
+  width: 340px;
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (max-width: 500px) {
+  .Contacts h3{
+    font-size: 28px;
+  }
+  .Contacts li{
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 400px) {
+  .Contacts h3{
+    font-size: 22px;
+  }
+  .Contacts li{
+    font-size: 10px;
+  }
+  .links{
+    width: 280px;
+    transform: scale(.8);
+  }
+}
