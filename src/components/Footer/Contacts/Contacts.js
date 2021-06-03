@@ -15,11 +15,11 @@ const Contacts = () => {
       <li>Email: altyn.kumara.dev@gmail.com</li>
     </ul>
     <div className={classes.links}>
-      <a rel="noreferrer" href='https://www.instagram.com/altyn_kumara/' target='_blank'><img src={insta}/></a>
-      <a rel="noreferrer" href='https://www.facebook.com/AltynKumara' target='_blank'><img src={fb}/></a>
-      <a rel="noreferrer" href='https://www.tripadvisor.ru/Restaurant_Review-g815340-d13313936-Reviews-Altyn_Kumara-Karakol_Issyk_Kul_Province.html' target='_blank'><img src={tripadvisor}/></a>
-      <a rel="noreferrer" href='#' target='_blank'><img src={wsp}/></a>
-      <a rel="noreferrer" href='#' target='_blank'><img src={tg}/></a>
+      <a rel="noreferrer" href='https://www.instagram.com/altyn_kumara/' target='_blank'><img alt='instagram' src={insta}/></a>
+      <a rel="noreferrer" href='https://www.facebook.com/AltynKumara' target='_blank'><img alt='facebook' src={fb}/></a>
+      <a rel="noreferrer" href='https://www.tripadvisor.ru/Restaurant_Review-g815340-d13313936-Reviews-Altyn_Kumara-Karakol_Issyk_Kul_Province.html' target='_blank'><img alt='tripadvisor' src={tripadvisor}/></a>
+      <a rel="noreferrer" href='#' target='_blank'><img alt='whatsapp' src={wsp}/></a>
+      <a rel="noreferrer" href='#' target='_blank'><img alt='telegram' src={tg}/></a>
     </div>
 
   </div> );
