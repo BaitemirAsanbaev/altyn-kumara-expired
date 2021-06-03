@@ -4,6 +4,7 @@
 .Contacts h3{
   font-size: 36px;
   font-weight: 400;
+  transition: font-size .3s;
 }
 .Contacts ul{
   list-style: none;
@@ -12,11 +13,13 @@
 }
 .Contacts li{
   margin: 20px 0px;
+  transition: font-size .3s;
 }
 .links{
   width: 340px;
   display: flex;
   justify-content: space-around;
+  transition: width .3s, transform .3s;
 }
 
 @media (max-width: 500px) {

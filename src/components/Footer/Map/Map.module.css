@@ -2,6 +2,7 @@
   .Map iframe{
     width: 400px;
     height: 240px;
+    transition: height .3s, width .3s;
   } 
 }
 
