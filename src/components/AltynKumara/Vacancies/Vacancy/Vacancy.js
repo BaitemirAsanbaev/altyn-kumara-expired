@@ -57,13 +57,13 @@ const Vacancy = ({ match }) => {
     event.preventDefault()
 
     axios.post('https://altyn-kumara-a0de6-default-rtdb.firebaseio.com/vacancies.json' ,{
-      имя: data.get('first-name'),
-      фамилия: data.get('last-name'),
-      возраст: data.get('age'),
-      должность: data.get('occupation'),
-      стаж_работы: data.get('exp'),
-      график_работы: data.get('graph'),
-      номер_телефона: data.get('phone')
+      '1) имя': data.get('first-name'),
+      '2) фамилия': data.get('last-name'),
+      '3) возраст': data.get('age'),
+      '4) должность': data.get('occupation'),
+      '5) стаж_работы': data.get('exp'),
+      '6) график_работы': data.get('graph'),
+      '7) номер_телефона': data.get('phone')
     })
     setTimeout(()=>{
       history.push('/')
