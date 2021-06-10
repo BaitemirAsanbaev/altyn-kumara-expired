@@ -18,7 +18,7 @@ const Contacts = () => {
       <a rel="noreferrer" href='https://www.instagram.com/altyn_kumara/' target='_blank'><img alt='instagram' src={insta}/></a>
       <a rel="noreferrer" href='https://www.facebook.com/AltynKumara' target='_blank'><img alt='facebook' src={fb}/></a>
       <a rel="noreferrer" href='https://www.tripadvisor.ru/Restaurant_Review-g815340-d13313936-Reviews-Altyn_Kumara-Karakol_Issyk_Kul_Province.html' target='_blank'><img alt='tripadvisor' src={tripadvisor}/></a>
-      <a rel="noreferrer" href='https://google.com' target='_blank'><img alt='whatsapp' src={wsp}/></a>
+      <a rel="noreferrer" href='https://api.whatsapp.com/send?phone=996556521111' target='_blank'><img alt='whatsapp' src={wsp}/></a>
       <a rel="noreferrer" href='https://google.com' target='_blank'><img alt='telegram' src={tg}/></a>
     </div>
 
