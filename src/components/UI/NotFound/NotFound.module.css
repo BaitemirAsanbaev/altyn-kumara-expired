@@ -1,0 +1,23 @@
+.NotFound{
+  padding: 0px 50px;
+}
+.NotFound>div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #242424;
+  color: #ffffff;
+  margin-top: 100px;
+  border: 2px solid #ffdc23;
+}
+.NotFound a{
+  color: #ffdc23;
+  text-decoration: none;
+}
+.NotFound span{
+  margin: 20px 0px;
+}
+.NotFound h1{
+  margin: 0px 0px 20px 0px;
+}

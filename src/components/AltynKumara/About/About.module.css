@@ -1,9 +1,12 @@
 .About{
   background-color: #242424;
   color: #fff;
-  max-width: 1000px;
-  margin: 50px auto;
+  width: 100%;
   padding: 20px 80px;
+}
+.About>div{
+  padding: 20px 80px;
+  border: 2px solid #ffdc23;
 }
 .About p{
   line-height: 1.5;

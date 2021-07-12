@@ -17,6 +17,7 @@
   align-items: center;
   padding: 10px 20px 0px 20px;
   transition: box-shadow .5s, transform .5s;
+  border: 2px solid #ffdc23;
 }
 .Vcard:hover{
   color: #ffdc23;
