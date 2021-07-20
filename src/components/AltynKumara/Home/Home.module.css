@@ -11,14 +11,12 @@
   color: #fff;
   border: 2px solid #ffdc23;
   background-color: #232323;
+  margin: 50px auto;
 }
 .info>div{
   display: flex;
   align-items: baseline;
 
-}
-.info{
-  margin: 50px auto;
 }
 .info img{
   width: 40px;
@@ -31,9 +29,26 @@
   font-family: 'Arabian';
   font-size: 60px;
   font-weight: 400;
-  margin: 30px 0px;
+  margin: 0px;
+}
+.info p {
+  font-size: 24px;
+  line-height: 1.7;
+}
+@media (max-width: 700px) {
+  .info p{
+    font-size: 20px;
+  }
+}
+@media (max-width: 500px) {
+  .info p{
+    font-size: 17px;
+  }
 }
 @media (max-width: 450px) {
+  .info{
+    padding: 15px 30px
+  }
   .info h2{
     font-size: 45px;
   }
@@ -41,6 +56,7 @@
 @media (max-width: 380px) {
   .info h2{
     font-size: 25px;
+    margin-bottom: 15px;
   }
   .info img{
     width: 20px;
@@ -48,5 +64,13 @@
   }
   .info p{
     font-size: 12px;
+  }
+}
+@media (max-width: 280px) {
+  .info p{
+    font-size: 9px;
+  }
+  .info h2{
+    font-size: 20px;
   }
 }

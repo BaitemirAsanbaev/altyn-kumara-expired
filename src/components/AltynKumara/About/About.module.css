@@ -3,6 +3,8 @@
   color: #fff;
   width: 100%;
   padding: 20px 80px;
+  transition: padding .5s;
+  margin: 30px 0px;
 }
 .About>div{
   padding: 20px 80px;
@@ -11,7 +13,52 @@
 .About p{
   line-height: 1.5;
   font-size: 24px;
+  transition: font-size .5s;
 }
 .About h1{
   font-size: 36px;
+  margin: 25px 0px;
+  transition: font-size .5s;
+}
+@media (max-width: 700px) {
+  .About p{
+    font-size: 20px;
+  }
+  .About h1{
+    font-size: 32px;
+    margin: 10px;
+  }
+  .About>div{
+    padding: 15px 50px;
+  }
+}
+@media (max-width: 600px) {
+  .About p{
+    font-size: 14px;
+    line-height: 1.7;
+  }
+  .About h1{
+    font-size: 26px;
+    margin-bottom: 25px;
+  }
+  .About>div{
+    padding: 15px 50px;
+  }
+}
+@media (max-width: 500px) {
+  .About{
+    padding: 20px 40px;
+  }
+  .About p{
+    font-size: 11px;
+  }
+  .About h1{
+    font-size: 24px;
+  }
+}
+@media (max-width: 400px) {
+  .About p{
+    font-size: 9px;
+    line-height: 1.8;
+  }
 }
