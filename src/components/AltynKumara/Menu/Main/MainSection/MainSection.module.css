@@ -1,0 +1,10 @@
+.MainSection{
+  cursor: pointer;
+}
+.MainSection h1{
+  margin: 40px 0px;
+}
+.DishesList{
+  transition: transform 0.5s, opacity .5s;
+  flex-direction: column;
+}

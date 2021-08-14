@@ -1,0 +1,26 @@
+.Card{
+  width: 600px;
+  height: 260px;
+  background-position: center;
+  border: 2px solid #ffdc23;
+}
+a{
+  color: #fff;
+  text-decoration: none;
+}
+.Card>div{
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color .5s;
+}
+.Card>div:hover{
+  background-color: transparent;
+}
+.Card h1{
+  font-size: 46px;
+  margin: 0px;
+}

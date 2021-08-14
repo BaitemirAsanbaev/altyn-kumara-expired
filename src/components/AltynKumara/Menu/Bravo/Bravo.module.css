@@ -1,0 +1,18 @@
+.Bravo{
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+  margin: 50px auto;
+  border: 2px solid #ffdc23;
+  padding: 20px 40px;
+}
+.pizza_item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 600px;
+  margin: 20px 0px;
+}
+.pizza_item>div{
+  max-width: 400px;
+}

@@ -1,0 +1,32 @@
+.MenuInfo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 30px;
+  margin: 20px 30px;
+  border: 2px solid #ffdc23;
+}
+.MenuInfo h1{
+  max-width: 450px;
+  margin-bottom: 0px;
+}
+.MenuInfo h2{
+  font-size: 24px;
+  font-weight: 300;
+}
+.MenuInfo h3{
+  font-weight: 400;
+}
+.MenuInfo span{
+  font-weight: 600;
+}
+.MenuInfo ul li{
+  font-weight: 200;
+  line-height: 1.7;
+}
+.MenuInfo span:first-of-type, .MenuInfo ul:first-of-type li{
+  color: rgb(152, 255, 35);
+}
+.MenuInfo span:last-of-type, .MenuInfo ul:last-of-type li{
+  color: rgb(255, 233, 35);
+}

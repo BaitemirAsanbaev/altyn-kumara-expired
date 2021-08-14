@@ -1,0 +1,9 @@
+.UpBtn{
+  position: fixed;
+  top: 80%;
+  right: 10%;
+  cursor: pointer;
+}
+.UpBtn img{
+  width: 70px;
+}

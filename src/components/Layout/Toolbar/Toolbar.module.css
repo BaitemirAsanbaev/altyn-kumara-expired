@@ -14,7 +14,7 @@
 nav{
   display: flex;
   align-items: center;
-  margin-right: 200px;
+  margin-right: 100px;
 }
 nav>div{
   justify-content: center;

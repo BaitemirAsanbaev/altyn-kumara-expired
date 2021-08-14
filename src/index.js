@@ -6,8 +6,9 @@ import thunk from 'redux-thunk';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {createStore, applyMiddleware} from 'redux';
+import { menu } from './store/reducers/menu';
 
-const store = createStore(applyMiddleware(thunk))
+const store = createStore( menu, applyMiddleware(thunk))
 
 ReactDOM.render(
 

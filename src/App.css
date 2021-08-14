@@ -5,6 +5,7 @@
   src: url(../src/font/arab3end.ttf);
 }
 *{
+  scroll-behavior: smooth;
   box-sizing: border-box;
 }
 body{
@@ -12,4 +13,5 @@ body{
   font-family: 'Montserrat', sans-serif;
   color: rgb(255, 255, 255);
   background-color: #232323;
+  scroll-behavior: smooth;
 }
