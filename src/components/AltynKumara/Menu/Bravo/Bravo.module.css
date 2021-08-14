@@ -9,10 +9,52 @@
 .pizza_item{
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: baseline;
   max-width: 600px;
   margin: 20px 0px;
 }
 .pizza_item>div{
   max-width: 400px;
+}
+
+.pizza_item .p_info span{
+  width: 140px!important;
+  display: block;
+}
+@media (max-width: 630px) {
+  .pizza_item h2{
+    font-size: 20px;
+  }
+  .pizza_item span{
+    font-size: 14px;
+  }
+  .pizza_item .p_title{
+    margin-right: 20px;
+  }
+
+}
+@media (max-width: 630px) {
+  .pizza_item h2{
+    font-size: 16px;
+  }
+  .pizza_item span{
+    font-size: 12px;
+  }
+  .pizza_item .p_title{
+    margin-right: 20px;
+  }
+}
+@media (max-width: 800px) {
+  .Bravo{
+    margin: 50px;
+  }
+}
+@media (max-width: 400px) {
+  .Bravo{
+    margin: 20px;
+    padding: 0px 20px;
+  }
+  .pizza_item span{
+    font-size: 9px;
+  };
 }
