@@ -24,3 +24,21 @@ a{
   font-size: 46px;
   margin: 0px;
 }
+@media (max-width: 1111px) {
+  .Card{
+    margin-top: 20px;
+  }
+}
+@media (max-width: 700px) {
+  .Card{
+    width: 400px;
+  }
+  .Card h1{
+    font-size: 26px;
+  }
+}
+@media (max-width: 450px) {
+  .Card{
+    width: 250px;
+  }
+}

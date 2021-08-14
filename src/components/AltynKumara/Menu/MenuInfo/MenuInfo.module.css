@@ -30,3 +30,39 @@
 .MenuInfo span:last-of-type, .MenuInfo ul:last-of-type li{
   color: rgb(255, 233, 35);
 }
+@media (max-width: 1111px) {
+  .MenuInfo{
+    width: 600px;
+    margin: 0 auto;
+  }
+}
+@media(max-width: 700px){
+  .MenuInfo{
+    width: 400px;
+    align-items: flex-start;
+  }
+  .MenuInfo h3{
+    line-height: 2;
+  }
+  .MenuInfo .serv{
+    font-size: 18px!important;
+  }
+}
+@media (max-width: 450px) {
+  .MenuInfo{
+    width: 250px;
+
+  }
+  .MenuInfo h2{
+    font-size: 20px;
+  }
+  .MenuInfo h3{
+    font-size: 11px;
+  }
+  .MenuInfo .serv{
+    font-size: 14px!important;
+  }
+  .MenuInfo span{
+    margin-top: 30px
+  }
+}

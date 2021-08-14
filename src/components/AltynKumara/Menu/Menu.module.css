@@ -8,3 +8,9 @@
   align-items: center;
   justify-content: space-around;
 }
+@media (max-width: 1111px) {
+  .Menu{
+    flex-direction: column;
+    margin: 50px auto;
+  }
+}

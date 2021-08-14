@@ -1,4 +1,5 @@
-.MainSection{
+
+.clickDiv{
   cursor: pointer;
 }
 .MainSection h1{
@@ -7,4 +8,10 @@
 .DishesList{
   transition: transform 0.5s, opacity .5s;
   flex-direction: column;
+}
+
+@media (max-width: 400px) {
+  .MainSection h1{
+    font-size: 24px;
+  }
 }
