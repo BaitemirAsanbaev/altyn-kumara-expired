@@ -1,6 +1,19 @@
 
 .clickDiv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.clickDiv h1{
+  cursor: default;
+  transition: color .5s;
+}
+.clickDiv h1:hover{
+  color: #ffdc23;
+}
+.clickDiv img{
   cursor: pointer;
+  transition: transform .5s;
 }
 .MainSection h1{
   margin: 40px 0px;

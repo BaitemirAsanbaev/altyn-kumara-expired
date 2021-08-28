@@ -19,19 +19,6 @@ const Main = () => {
     <MainSection data={data.main_dishes}>Вторые блюда</MainSection>
     <MainSection data={data.coffee}>Кофе</MainSection>
     <MainSection data={data.desserts}>Дессерты</MainSection>
-    {/* {salads} */}
-    {/* {}
-    {}
-    {fryer}
-    {sushi}
-    {refreshments}
-    {first_dishes}
-    {pancakes}
-    {garnish}
-    {chicken_dishes}
-    {main_dishes}
-    {coffee}
-    {desserts} */}
 
   </div>);
 }
