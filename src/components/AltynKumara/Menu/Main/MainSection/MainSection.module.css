@@ -20,7 +20,9 @@
 }
 .DishesList{
   transition: transform 0.5s, opacity .5s;
+  display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 @media (max-width: 400px) {

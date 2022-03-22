@@ -15,8 +15,9 @@
     margin: 50px;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   .Main{
+    padding: 10px 20px;
     margin: 20px;
   }
 }
